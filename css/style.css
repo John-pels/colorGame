@@ -18,7 +18,7 @@ body {
 }
 
 #container {
-    margin: 0 auto;
+    margin: 20px auto;
     max-width: 600px;
 }
 
@@ -62,6 +62,7 @@ button {
     font-weight: 700;
     color: steelblue;
     transition: all 0.3s;
+    outline: none;
 }
 
 button:hover {
