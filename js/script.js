@@ -54,7 +54,7 @@ function setupSquares() {
                 h1.style.backgroundColor = clickedColor;
             } else {
                 this.style.backgroundColor = "transparent";
-                messageDisplay.textContent = "Oooops,Try Again!";
+                messageDisplay.textContent = "Try Again!";
             }
         });
     }
