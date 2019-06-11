@@ -1,0 +1,2 @@
+# colorGame
+This is Game that displays a RGB color code and then allows user to pick a color box that corresponds with the code, if the user get it right then a message will be displayed and vice-versa. User can also the level for the game i.e (EASY or HARD).
