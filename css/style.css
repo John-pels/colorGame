@@ -1,5 +1,7 @@
 html{
     background-image: linear-gradient(35deg,#232323,#eee);
+    height: 100vh;
+    margin:0;
 }
 body {
     margin: 0;
@@ -69,7 +71,7 @@ footer{
     width: 100%;
     justify-content: center;
     align-items: stretch;
-    color: #232323;
+    color: #FFF;
     font-size: 1.5rem;
     position: absolute;
     bottom: -20px;
