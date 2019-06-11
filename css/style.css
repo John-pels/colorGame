@@ -1,9 +1,9 @@
 html{
     background-image: linear-gradient(35deg,#232323,#eee);
-    height: 100vh;
-    margin:0;
+
 }
 body {
+    height:100vh;
     margin: 0;
     font-family: "Raleway", "Avenir";
 }
