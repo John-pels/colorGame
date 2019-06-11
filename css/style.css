@@ -16,9 +16,19 @@ body {
 }
 
 h1 {
+    text-align: center;
     color: #FFF;
+    background: steelblue;
+    margin: 0;
 }
 
-span {
-    color: #FFF;
+#stripe {
+    background: #FFF;
+    height: 30px;
+    text-align: center;
+    color: black;
+}
+
+.selected {
+    background: blue;
 }
