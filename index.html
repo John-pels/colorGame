@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="http://code.jquery.com/jquery-3.3.1.js" ></script>
+    <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Color Game</title>
@@ -22,12 +22,12 @@
         <button class="mode">Easy</button>
         <button class="mode selected">Hard</button>
     </div>
-   
+
     <div id="container">
-         <div class="instruction" id="instruction">
+        <div class="instruction" id="instruction">
             <h3>Please read Instruction below:</h3>
-        <span>Each RGB code represents a color, you are to pick a color box that matches the above RGB(255,255,255) code  where R, G, B represent Red, Green and Blue respectively. Please click the Instruction to hide it. Enjoy!</span>
-    </div>
+            <span>Each RGB code represents a color, you are to pick a color box that matches the above RGB(255,255,255) code  where R, G, B represent Red, Green and Blue respectively. Please click the Instruction to hide it. Enjoy!</span>
+        </div>
 
         <div class="square"></div>
         <div class="square"></div>
@@ -36,7 +36,7 @@
         <div class="square"></div>
         <div class="square"></div>
     </div>
-     <!-- <footer>
+    <!-- <footer>
         <p>Developed by Ajeigbe John Oluwaseyi <br>
             <span class="fa fa-envelope">&nbsp; Oluseyiajeigbe@yahoo.com</span> <br>
             <span class="fa fa-phone"> &nbsp;+2348132815396,&nbsp;<span class="fa fa-whatsapp">&nbsp;+2348188974303</span></span>
@@ -44,10 +44,10 @@
     </footer> -->
     <script src="js/script.js"></script>
     <script type="text/javascript">
-        $(document).ready(function(){
-            $("#instruction").click(function (){
-            $("#instruction").hide(5000);
-        });
+        $(document).ready(function() {
+            $("#instruction").click(function() {
+                $("span").fadeToggle(2000);
+            });
         });
     </script>
 </body>
